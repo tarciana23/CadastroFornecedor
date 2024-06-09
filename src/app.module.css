@@ -1,0 +1,61 @@
+
+.layout{
+    min-height: 100%;
+}
+
+.sider{
+    background-color: #001529;
+}
+
+.menuItem{
+    margin-top:2rem;
+    font-size: 2rem;
+}
+
+.links{
+    color:#ff6421;
+    font-size:1.2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+.content {
+    width: 100%;
+    margin: auto;
+    height: calc(100vh - 112px);
+    overflow: auto;
+    background: #fff;
+
+    scrollbar-width: thin;
+    scrollbar-color: #a0a0a0 #e0e0e0;
+}
+
+/*  navegadores baseados em WebKit (Chrome, Safari) */
+.content::-webkit-scrollbar {
+    width: 12px; 
+    height: 12px;
+}
+
+/* trilho da barra de rolagem */
+.content::-webkit-scrollbar-track {
+    background: #e0e0e0;
+    border-radius: 10px;
+}
+
+/* polegar da barra de rolagem */
+.content::-webkit-scrollbar-thumb {
+    background: #a0a0a0; 
+    border-radius: 10px;
+}
+
+/* Estilizar o polegar quando estiver em hover */
+.content::-webkit-scrollbar-thumb:hover {
+    background: #808080;
+}
+
+
+.footer{
+    color:#001529;
+    font-weight: 600;
+    text-align:center;
+    background: #f3f2ec;
+}
